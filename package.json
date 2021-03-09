@@ -1,0 +1,12 @@
+{
+  "name": "github-explorer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/BergCastro/ignite-github-explorer.git",
+  "author": "Lindemberg <lindembergncastro@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
