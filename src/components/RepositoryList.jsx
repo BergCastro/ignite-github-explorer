@@ -15,7 +15,7 @@ export function RepositoryList() {
         <section className="repository-list">
             <h1>Lista de repositórios</h1>
             <ul>
-               <RepositoryItem respository="unform2" description="Forms in react" link=""/>
+                {repositories.map(repositories => <RepositoryItem key={repositories.name} repository={repositories}/>)}
               
             </ul>
         </section>
